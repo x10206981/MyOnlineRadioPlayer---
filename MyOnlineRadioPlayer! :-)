@@ -182,7 +182,6 @@ button:hover {
   background-color: #4CAF50;
 }
 </style>
-<body>
 
 <form id="regForm" action="/action_page.php">
   <h1>Register New User:</h1>
@@ -285,7 +284,8 @@ function fixStepIndicator(n) {
   //... and adds the "active" class on the current step:
   x[n].className += " active";
 }
-</script>       
+</script>
+
             <h3>*PLAY ONLINE RADIO:</h3> 
 			<ul>
             	<li><a href="https://liveradio.ie/stations/radio-nova">1.Radio NOVA*</a> 
@@ -293,8 +293,8 @@ function fixStepIndicator(n) {
                 <li><a href="https://radiofm-online.com/rmf-fm">3.Radio RMF-FM</a> 
                 <li><a href="https://radiofm-online.com/radio-zet">4.Radio ZET</a> 
               </li> 
-             </ul> 
-           </div>
-		</nav>	
+             </ul>
+	    </nav>
+           </div>	
     </body>
 </html>
